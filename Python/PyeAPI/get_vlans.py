@@ -16,6 +16,7 @@ for switch in file_vlan_dict['switches']:
         print(f"Vlan id of {vlan_id} with name {vlan_name}")
 
         print(cmd_vlan_dict [vlan] ['name'])
+        
 
 
    
