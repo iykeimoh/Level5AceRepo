@@ -17,3 +17,5 @@ for switch in vlan_dict['switches']:
         print(f"Adding VLAN {vlan_id} to {switch}")
         vlan_api.create(vlan_id)
         vlan_api.set_name(vlan_id, vlan_name)
+
+        
